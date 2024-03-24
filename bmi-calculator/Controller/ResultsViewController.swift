@@ -18,6 +18,7 @@ class ResultsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Welcome to my App")
         view.backgroundColor = color ?? UIColor.white
         labelBMI.text = bmiValue ?? "0.00"
         labelSuggestion.text = suggestion ?? "No Suggestion"
